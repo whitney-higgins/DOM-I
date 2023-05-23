@@ -26,12 +26,12 @@ Inside `src/index.js` there is declared an object literal containing all the dat
 
 ### Create selectors to access the relevant elements
 
-- [ ] Declare variables pointing to the relevant DOM elements, using any of the selectors you have learned.
+- [x] Declare variables pointing to the relevant DOM elements, using any of the selectors you have learned.
 
 ### Add text contents
 
-- [ ] Using your selectors, update the text contents of the relevant elements, matching the design file.
-- [ ] Find the correct texts for the elements inside the data object in `src/index.js`.
+- [x] Using your selectors, update the text contents of the relevant elements, matching the design file.
+- [x] Find the correct texts for the elements inside the data object in `src/index.js`.
 
 ### Add class names
 

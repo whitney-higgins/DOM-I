@@ -105,3 +105,19 @@ contactPara[0].textContent = siteContent["contact"]["address"];
 contactPara[1].textContent = siteContent["contact"]["phone"];
 contactPara[2].textContent = siteContent["contact"]["email"];
 
+// Footer
+
+const footerLink = document.querySelector("footer a");
+
+footerLink.textContent = siteContent["footer"]["copyright"];
+
+// Create class names
+
+navLinks[0].classList.add("italic");
+navLinks[1].classList.add("italic");
+navLinks[2].classList.add("italic");
+navLinks[3].classList.add("italic");
+navLinks[4].classList.add("italic");
+navLinks[5].classList.add("italic");
+
+footerLink.classList.add("bold");
