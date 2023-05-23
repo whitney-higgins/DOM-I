@@ -74,3 +74,21 @@ const ctaBtn = document.querySelector("button");
 
 ctaMain.textContent = siteContent["cta"]["h1"];
 ctaBtn.textContent = siteContent["cta"]["button"];
+
+// Top Content Headers
+
+const topHeader = document.querySelectorAll(".main-content h4");
+
+topHeader[0].textContent = siteContent["main-content"]["features-h4"];
+topHeader[1].textContent = siteContent["main-content"]["about-h4"];
+topHeader[2].textContent = siteContent["main-content"]["services-h4"];
+topHeader[3].textContent = siteContent["main-content"]["product-h4"];
+topHeader[4].textContent = siteContent["main-content"]["vision-h4"];
+
+const topPara = document.querySelectorAll(".main-content p");
+
+topPara[0].textContent = siteContent["main-content"]["features-content"];
+topPara[1].textContent = siteContent["main-content"]["about-content"];
+topPara[2].textContent = siteContent["main-content"]["services-content"];
+topPara[3].textContent = siteContent["main-content"]["product-content"];
+topPara[4].textContent = siteContent["main-content"]["vision-content"];
