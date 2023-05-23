@@ -92,3 +92,16 @@ topPara[1].textContent = siteContent["main-content"]["about-content"];
 topPara[2].textContent = siteContent["main-content"]["services-content"];
 topPara[3].textContent = siteContent["main-content"]["product-content"];
 topPara[4].textContent = siteContent["main-content"]["vision-content"];
+
+// Contact
+
+const contactHeader = document.querySelector(".contact h4");
+const contactPara = document.querySelectorAll(".contact p");
+console.log(contactPara);
+
+contactHeader.textContent = siteContent["contact"]["contact-h4"];
+
+contactPara[0].textContent = siteContent["contact"]["address"];
+contactPara[1].textContent = siteContent["contact"]["phone"];
+contactPara[2].textContent = siteContent["contact"]["email"];
+
