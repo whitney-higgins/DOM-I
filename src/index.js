@@ -55,3 +55,22 @@ const accentImg = document.querySelector("#middle-img");
 logo.src = siteContent["images"]["logo-img"];
 ctaImg.src = siteContent["images"]["cta-img"];
 accentImg.src = siteContent["images"]["accent-img"];
+
+// Nav
+
+const navLinks = document.querySelectorAll("header nav a");
+
+navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
+navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
+navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
+navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
+navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
+navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
+
+// CTA
+
+const ctaMain = document.querySelector("h1");
+const ctaBtn = document.querySelector("button");
+
+ctaMain.textContent = siteContent["cta"]["h1"];
+ctaBtn.textContent = siteContent["cta"]["button"];
